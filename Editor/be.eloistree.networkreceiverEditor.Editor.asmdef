@@ -1,0 +1,16 @@
+
+{                                                                   
+            "name": "be.eloistree.networkreceiverEditor",          
+    "references": ["be.eloistree.networkreceiver","be.eloistree.networksenders"
+],                                                              
+    "optionalUnityReferences": [],                                  
+    "includePlatforms": [                                           
+        "Editor"                                                    
+    ],                                                              
+    "excludePlatforms": [],                                         
+    "allowUnsafeCode": false,                                       
+    "overrideReferences": false,                                    
+    "precompiledReferences": [],                                    
+    "autoReferenced": true,                                         
+    "defineConstraints": []                                         
+}                                                                   
