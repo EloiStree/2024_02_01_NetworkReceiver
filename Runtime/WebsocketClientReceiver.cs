@@ -56,6 +56,10 @@ public class WebsocketClientReceiver : MonoBehaviour
         {
             Debug.Log($"Error on {m_websocketServer}! " + e);
             m_isConnected = false;
+            if(websocket!=null)
+                websocket.Close();
+           
+
         };
 
         websocket.OnClose += (e) =>
